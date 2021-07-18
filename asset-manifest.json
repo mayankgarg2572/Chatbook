@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Chatboook/static/css/main.ac7b7c06.chunk.css",
+    "main.js": "/Chatboook/static/js/main.4580696f.chunk.js",
+    "main.js.map": "/Chatboook/static/js/main.4580696f.chunk.js.map",
+    "runtime-main.js": "/Chatboook/static/js/runtime-main.a42ef04f.js",
+    "runtime-main.js.map": "/Chatboook/static/js/runtime-main.a42ef04f.js.map",
+    "static/js/2.c60dad9b.chunk.js": "/Chatboook/static/js/2.c60dad9b.chunk.js",
+    "static/js/2.c60dad9b.chunk.js.map": "/Chatboook/static/js/2.c60dad9b.chunk.js.map",
+    "static/js/3.f8ea8649.chunk.js": "/Chatboook/static/js/3.f8ea8649.chunk.js",
+    "static/js/3.f8ea8649.chunk.js.map": "/Chatboook/static/js/3.f8ea8649.chunk.js.map",
+    "index.html": "/Chatboook/index.html",
+    "static/css/main.ac7b7c06.chunk.css.map": "/Chatboook/static/css/main.ac7b7c06.chunk.css.map",
+    "static/js/2.c60dad9b.chunk.js.LICENSE.txt": "/Chatboook/static/js/2.c60dad9b.chunk.js.LICENSE.txt",
+    "static/media/Dashboard.css": "/Chatboook/static/media/home.e3752127.png",
+    "static/media/Form.css": "/Chatboook/static/media/login-page.94898fd4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a42ef04f.js",
+    "static/js/2.c60dad9b.chunk.js",
+    "static/css/main.ac7b7c06.chunk.css",
+    "static/js/main.4580696f.chunk.js"
+  ]
+}
