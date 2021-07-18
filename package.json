@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mayankgarg2572.github.io/Chatboook",
   "name": "chatbook-app",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +13,6 @@
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "homepage": "https://mayankgarg2572.github.io/Chatboook/",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -40,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
