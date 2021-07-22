@@ -1,7 +1,7 @@
 import React from 'react';
 import validate from './validateInfo';
 import useForm from './useForm';
-import './../Form.css';
+import './Signin.css';
 
 const FormSignin = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm(
@@ -10,15 +10,15 @@ const FormSignin = ({ submitForm }) => {
   );
 
   return (
-    <div className='form-content-right'>
-      <form onSubmit={handleSubmit} className='form' noValidate>
+    <div className='form1-content'>
+      <form onSubmit={handleSubmit} className='form1' noValidate>
         <h1>
           Let's get started with chatbook by login to your account
         </h1>
-        <div className='form-inputs'>
-          <label className='form-label'>Email</label>
+        <div className='form1-inputs'>
+          <label className='form1-label'>Email</label>
           <input
-            className='form-input'
+            className='form1-input'
             type='email'
             name='email'
             placeholder='Enter your email'
@@ -27,10 +27,10 @@ const FormSignin = ({ submitForm }) => {
           />
           {errors.email && <p>{errors.email}</p>}
         </div>
-        <div className='form-inputs'>
-          <label className='form-label'>Password</label>
+        <div className='form1-inputs'>
+          <label className='form1-label'>Password</label>
           <input
-            className='form-input'
+            className='form1-input'
             type='password'
             name='password'
             placeholder='Enter your password'
@@ -39,7 +39,7 @@ const FormSignin = ({ submitForm }) => {
           />
           {errors.password && <p>{errors.password}</p>}
         </div>
-        <button className='form-input-btn' type='submit'>
+        <button className='form1-input-btn' type='submit'>
           Login
         </button>
       </form>

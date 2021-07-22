@@ -3,6 +3,7 @@ import Navbar from './Navbar/Navbar';
 import Form1 from './Signin/Signin';
 import Form from './Signup/Signup';
 import './Manage.css';
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function Manage() {
   return (

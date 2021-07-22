@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import List from './List';
 import Alert from './Alert';
 import './Dashboard.css'
-
+// import hcbgImage from "./login-page.png";
 function App() {
   const [name, setName] = useState('');
   // const [userName, setUserName] = useState('');

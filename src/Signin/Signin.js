@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import './Form.css';
-import FormSignin from './User/FormSignin';
-import FormSuccess from './User/FormSuccess';
+import './Signin.css';
+import FormSignin from './FormSignin';
+import FormSuccess from './FormSuccess';
+import hcbgImage from "./loginPage.png";
 
 const Form = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -11,9 +12,17 @@ const Form = () => {
   }
   return (
     <>
-      <div className='form-container'>
-        <div className='form-content-left'>
-        </div>
+      <div className='form1-container'
+      style={{
+        backgroundImage:"url("+hcbgImage+")",
+        backgroundSize: "cover",
+        height: "100vh",
+        // color: "#f5f5f5"
+      }}
+      
+      >
+        {/* <div className='form-content-left'>
+        </div> */}
         {!isSubmitted ? (
           <FormSignin submitForm={submitForm} />
         ) : (

@@ -4,7 +4,7 @@ import './../Form.css';
 
 const FormSuccess = () => {
   return (
-    <div className='form-content-right'>
+    <div className='form-content'>
       <h1 className='form-success'>You have successfully signed up!</h1>
     </div>
   );
