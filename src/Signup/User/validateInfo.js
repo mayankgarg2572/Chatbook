@@ -18,7 +18,7 @@ export default function validateInfo(values) {
     if (!values.mobile) {
       errors.mobile = 'Mobile-No. required';
     } else if ((values.mobile.length < 10)||(values.mobile.length >15)) {
-      errors.mobile = 'Mobile-No. is invalid';
+      errors.mobile = 'Mobile no. must have min. 10 digits and max. 15 digits ';
     }
 
     if (!values.password) {

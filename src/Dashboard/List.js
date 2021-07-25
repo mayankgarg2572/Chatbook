@@ -1,32 +1,35 @@
 import React from 'react';
-import { FaEdit, FaTrash } from 'react-icons/fa';
-
+import { Reactions } from './Reactions';
 const List = ({ items, removeItem, editItem }) => {
+
   return (
-    
+
     <div className='post-list'>
-      
+
       {items.map((item) => {
-        const { id, title} = item;
+        const { id, title, vlue } = item;
         return (
           <article className='post-item' key={id}>
-            <p className='title'>{title}</p>
             <div className='btn-container'>
               <button
                 type='button'
                 className='edit-btn'
                 onClick={() => editItem(id)}
               >
-                Edit{/* <FaEdit /> */}
+                Edit
               </button>
               <button
                 type='button'
                 className='delete-btn'
                 onClick={() => removeItem(id)}
               >
-                Delete{/* <FaTrash /> */}
+                Delete
               </button>
             </div>
+            <p className='username'>User name:{vlue}</p>
+            <p className='title'>Post:{title}</p>
+            <Reactions />
+            
           </article>
         );
       })}
