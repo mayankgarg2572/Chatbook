@@ -1,9 +1,7 @@
 import React from 'react';
 import { Reactions } from './Reactions';
 const List = ({ items, removeItem, editItem }) => {
-
   return (
-
     <div className='post-list'>
 
       {items.map((item) => {
@@ -29,12 +27,10 @@ const List = ({ items, removeItem, editItem }) => {
             <p className='username'>User name:{vlue}</p>
             <p className='title'>Post:{title}</p>
             <Reactions />
-            
           </article>
         );
       })}
     </div>
   );
 };
-
 export default List;
